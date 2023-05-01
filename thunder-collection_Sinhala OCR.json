@@ -1,0 +1,53 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Sinhala OCR",
+    "dateExported": "2023-04-30T02:54:10.351Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0fc774e6-cb7d-4379-93c8-6de0be9884bc",
+            "colId": "d60fffcf-fbe9-47a4-8d38-9bc88e89f84b",
+            "containerId": "",
+            "name": "Suggest word",
+            "url": "http://localhost:5000/suggest_word",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-22T16:23:53.632Z",
+            "modified": "2023-04-28T15:57:46.640Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "word",
+                        "value": "එ"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "c:\\Users\\nisal\\Documents\\projects\\ocr\\datasets\\Dataset18\\test\\ට\\28.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "650cf44d-2442-44da-9655-9d596e6d093b",
+            "colId": "d60fffcf-fbe9-47a4-8d38-9bc88e89f84b",
+            "containerId": "",
+            "name": "Very First letter",
+            "url": "http://localhost:5000/suggest_word",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-22T16:25:24.334Z",
+            "modified": "2023-04-22T16:25:24.334Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
